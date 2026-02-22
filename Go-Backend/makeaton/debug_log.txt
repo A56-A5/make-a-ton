@@ -651,3 +651,72 @@ Items Extracted: [
     "price": 20.0
   }
 ]
+
+--- New Invoice Request 2026-02-22 10:17:56.194763 ---
+Customer: Alvi
+Chats: [
+  "[10:11:04] Alvi (918589837817): I would like to order 5 masala dosa",
+  "[10:11:07] Alvi (918589837817): 2 lassi",
+  "[10:17:55] Tharun Krishna C U (919778585423): Your order has been placed!"
+]
+Items Extracted: [
+  {
+    "item": "Masala Dosa",
+    "quantity": 5,
+    "price": 0.0
+  },
+  {
+    "item": "Lassi",
+    "quantity": 2,
+    "price": 0.0
+  }
+]
+
+--- New Invoice Request 2026-02-22 10:21:22.760262 ---
+Customer: Alvi DS
+Chats: [
+  "[10:11:04] Alvi (918589837817): I would like to order 5 masala dosa",
+  "[10:11:07] Alvi (918589837817): 2 lassi",
+  "[10:17:55] Tharun Krishna C U (919778585423): Your order has been placed!",
+  "[10:20:52] Alvi (918589837817): I would like to order 5 masala dosa",
+  "[10:21:17] Tharun Krishna C U (919778585423): that would be 500rps total",
+  "[10:21:22] Tharun Krishna C U (919778585423): Your order has been placed!"
+]
+Items Extracted: [
+  {
+    "item": "Masala Dosa",
+    "quantity": 5,
+    "price": 66.67
+  },
+  {
+    "item": "Lassi",
+    "quantity": 1,
+    "price": 166.67
+  }
+]
+
+--- New Invoice Request 2026-02-22 10:22:22.897910 ---
+Customer: Alvi DS
+Chats: [
+  "[10:11:04] Alvi (918589837817): I would like to order 5 masala dosa",
+  "[10:11:07] Alvi (918589837817): 2 lassi",
+  "[10:17:55] Tharun Krishna C U (919778585423): Your order has been placed!",
+  "[10:20:52] Alvi (918589837817): I would like to order 5 masala dosa",
+  "[10:21:17] Tharun Krishna C U (919778585423): that would be 500rps total",
+  "[10:21:22] Tharun Krishna C U (919778585423): Your order has been placed!",
+  "[10:22:05] Alvi (918589837817): 2 large pizzas at 500 each \u00b7 3 cold drinks for 50 rupees",
+  "[10:22:18] Tharun Krishna C U (919778585423): okay",
+  "[10:22:22] Tharun Krishna C U (919778585423): Your order has been placed!"
+]
+Items Extracted: [
+  {
+    "item": "Pizza",
+    "quantity": 2,
+    "price": 500.0
+  },
+  {
+    "item": "Cold Drinks",
+    "quantity": 3,
+    "price": 50.0
+  }
+]
